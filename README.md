@@ -66,30 +66,47 @@ If you prefer not to use Make:
    pip install -r requirements.txt
    ```
 
-## Workshop Exercises
+## Workshop Structure
 
-The workshop consists of three progressive exercises:
+This is designed as a **hybrid mob programming session** with three progressive exercises:
 
-### 1. Simple Call (`1_simple_call.py`)
-Make your first API call to ask a simple question.
+### Exercise 1: Simple Call (`1_simple_call.py`) - BUILD IT TOGETHER 🔨
+**Format:** Skeleton with TODOs
+**Approach:** Mob programming - work through the TODOs as a team
+
+Build your first API call from scratch! The file contains TODO comments guiding you through:
+- Importing modules
+- Initializing the OpenAI client
+- Making an API call
+- Printing the response
+
 ```bash
-make run-1
-# or: python 1_simple_call.py
+python 1_simple_call.py
 ```
 
-### 2. Dynamic Prompt - Madlibs Edition (`2_dynamic_prompt.py`)
-Collaborative madlibs activity! Each person contributes a variable to generate a creative story.
+### Exercise 2: Dynamic Prompt - Madlibs Edition (`2_dynamic_prompt.py`) - COLLABORATE 🎨
+**Format:** Complete, ready to run
+**Approach:** Each person contributes one variable
+
+This is a fun collaborative activity! Each team member fills in one variable (character name, place, object, etc.), then watch the LLM generate a creative story using all your inputs.
+
 ```bash
-make run-2
-# or: python 2_dynamic_prompt.py
+python 2_dynamic_prompt.py
 ```
 
-### 3. Batch Processor - Column Renaming (`3_batch_processor.py`)
-Process multiple database column names and get AI-powered renaming suggestions following best practices.
+### Exercise 3: Batch Processor - Column Renaming (`3_batch_processor.py`) - EXPLORE 🚀
+**Format:** Complete solution to discuss
+**Approach:** Demo and discussion
+
+See a real-world example of batch processing with LLMs. This shows how to process multiple items in a loop and apply consistent formatting rules. Perfect for sparking ideas about your own use cases!
+
 ```bash
-make run-3
-# or: python 3_batch_processor.py
+python 3_batch_processor.py
 ```
+
+## Solutions
+
+Complete solutions for all exercises are available in the `solutions/` folder for reference.
 
 ## Configuration
 
