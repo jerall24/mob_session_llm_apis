@@ -18,4 +18,6 @@ def list_proxy_models() -> list[str]:
 
 
 if __name__ == "__main__":
-    print(f"Available proxy models: {list_proxy_models()}")
+    print(f"Available proxy models:\n")
+    for model in list_proxy_models():
+        print(f"  {model}")
