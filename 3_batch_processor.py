@@ -52,7 +52,7 @@ Respond with ONLY the suggested column name, nothing else."""
 
     # Make the API call
     response = client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model=os.environ.get("LLM_MODEL"),
         messages=[
             {"role": "user", "content": prompt}
         ]

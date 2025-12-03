@@ -110,11 +110,10 @@ Complete solutions for all exercises are available in the `solutions/` folder fo
 
 ## Configuration
 
-- **Base URL:** `https://llm.data.justworks.com`
-- **Model:** `gpt-3.5-turbo`
-- **Environment Variables:** Set via `.envrc` (loaded by direnv)
-  - `LLM_PROXY_API_KEY` - Your API key for the LiteLLM Proxy
-  - `LLM_PROXY_BASE_URL` - The base URL for the LiteLLM Proxy
+**Environment Variables:** Set via `.envrc` (loaded by direnv)
+- `LLM_PROXY_API_KEY` - Your API key for the LiteLLM Proxy
+- `LLM_PROXY_BASE_URL` - The base URL for the LiteLLM Proxy (default: `https://llm.data.justworks.com`)
+- `LLM_MODEL` - The model to use for API calls (default: `gpt-3.5-turbo`)
 
 ## Notes
 

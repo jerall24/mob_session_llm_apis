@@ -53,7 +53,7 @@ print(f"\nGenerating your story...\n")
 
 # Make the API call with our madlibs prompt
 response = client.chat.completions.create(
-    model="gpt-3.5-turbo",
+    model=os.environ.get("LLM_MODEL"),
     messages=[
         {"role": "user", "content": prompt}
     ]
