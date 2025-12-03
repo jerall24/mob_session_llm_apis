@@ -2,3 +2,4 @@
 export LLM_PROXY_API_KEY="your-api-key-here"
 export LLM_PROXY_BASE_URL="https://llm.data.justworks.com"
 export LLM_MODEL="gpt-3.5-turbo"
+# export LLM_MODEL="us.anthropic.claude-sonnet-4-5-20250929-v1:0"
