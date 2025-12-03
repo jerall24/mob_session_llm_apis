@@ -11,13 +11,13 @@ from openai import OpenAI
 # MADLIBS TIME! Each person contributes one variable
 # Feel free to make these as silly or creative as you want!
 
-person_1_character_name = "bob"
-person_2_place = "the moon"
-person_3_object = "a moon rock"
-person_4_adjective = "shiny"
-person_5_profession = "astronaut"
-person_6_animal = "a cat"
-person_7_verb = "jumped"
+person_1_character_name = ""
+person_2_place = ""
+person_3_object = ""
+person_4_adjective = ""
+person_5_profession = ""
+person_6_animal = ""
+person_7_verb = ""
 
 # Construct a creative prompt using all 7 variables!
 prompt = f"""Write a short, entertaining story (3-4 paragraphs) that includes ALL of these elements:
